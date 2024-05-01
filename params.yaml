@@ -1,1 +1,5 @@
-"key" : "value"
+LogisticRegression:
+    penalty : l1
+    C : 19
+    solver : liblinear
+    max_iter : 500
