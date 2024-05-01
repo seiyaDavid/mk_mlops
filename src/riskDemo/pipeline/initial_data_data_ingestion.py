@@ -1,6 +1,6 @@
 from src.riskDemo.config.configuration import ConfigurationManager
 from src.riskDemo.components.data_ingestion import DataIngestion
-from src import logger
+from src.riskDemo import logger
 
 
 STAGE_NAME = "Data Ingestion stage"

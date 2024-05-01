@@ -4,12 +4,12 @@ from src.riskDemo.pipeline.initial_data_data_ingestion import (
 )
 
 
-STAGE_NAME = "Data Ingestion stage"
+STAGE_NAME = "Data Ingestion "
 try:
-    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    logger.info(f"=========== {STAGE_NAME} process has started ===========")
     data_ingestion = DataIngestionTrainingPipeline()
     data_ingestion.main()
-    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+    logger.info(f"=========== {STAGE_NAME} process is finished ===========\n\n")
 except Exception as e:
     logger.exception(e)
     raise e

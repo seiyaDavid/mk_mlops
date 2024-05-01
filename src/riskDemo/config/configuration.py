@@ -1,12 +1,6 @@
 from src.riskDemo.constants import *
 from src.riskDemo.utils.common import read_yaml, create_directories
-from src.riskDemo.entity.config_entity import (
-    DataIngestionConfig,
-    DataValidationConfig,
-    DataTransformationConfig,
-    ModelTrainerConfig,
-    ModelEvaluationConfig,
-)
+from src.riskDemo.entity.config_entity import DataIngestionConfig
 
 
 class ConfigurationManager:
