@@ -41,7 +41,7 @@ except Exception as e:
     raise e
 
 
-STAGE_NAME = "Model Trainer stage"
+STAGE_NAME = "Model Trainer "
 try:
     logger.info(f"=========== {STAGE_NAME} process has started ===========")
     data_ingestion = ModelTrainerTrainingPipeline()

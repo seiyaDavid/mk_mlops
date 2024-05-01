@@ -13,8 +13,6 @@ class DataValiadtion:
             validation_status = None
 
             data = pd.read_csv(self.config.unzip_data_dir)
-            # data = data.fillna(data.mean())  # modified
-            # data = data.drop("ID", axis=1)  # modified
             all_cols = list(data.columns)
 
             all_schema = self.config.all_schema.keys()

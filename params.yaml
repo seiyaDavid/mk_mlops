@@ -1,5 +1,6 @@
 LogisticRegression:
     penalty : l1
-    C : 19
+    C : 20
     solver : liblinear
     max_iter : 500
+    
