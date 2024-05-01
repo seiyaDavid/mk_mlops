@@ -3,16 +3,16 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: "C:/Users/Seiya/Desktop/mlops_demo/db/CreditScoring.zip"
-  local_data_file: artifacts/data_ingestion/CreditScoring.zip
+  source_URL: "C:/Users/Seiya/Desktop/mlops_demo/db/Cr_scoring.zip"
+  local_data_file: artifacts/data_ingestion/Cr_scoring.zip
   unzip_dir: artifacts/data_ingestion
 
 
 
-# data_validation:
-#   root_dir: artifacts/data_validation
-#   unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
-#   STATUS_FILE: artifacts/data_validation/status.txt
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/Cr_scoring.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
 
 
 

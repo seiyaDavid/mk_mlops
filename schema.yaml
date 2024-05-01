@@ -1,1 +1,32 @@
-"key" : "value"
+COLUMNS:
+  DerogCnt: float64
+  CollectCnt: float64
+  BanruptcyInd: float64
+  InqCnt06: float64
+  InqTimeLast: float64
+  InqFinanceCnt24: float64
+  TLTimeLast: float64
+  TLCnt03: float64
+  TLCnt12: float64
+  TLCnt24: float64
+  TLCnt: float64
+  TLSum: float64
+  TLMaxSum: float64
+  TLSatCnt: float64
+  TLDel60Cnt: float64
+  TLBadCnt24: float64
+  TL75UtilCnt: float64
+  TL50UtilCnt: float64
+  TLBalHCPct: float64
+  TLSatPct: float64
+  TLDel3060Cnt24: float64
+  TLDel90Cnt24: float64
+  TLDel60CntAll: float64
+  TLOpenPct: float64
+  TLBadDerogCnt: float64
+  TLDel60Cnt24: float64
+  TLOpen24Pct: float64
+
+
+TARGET_COLUMN:
+  name: TARGET
