@@ -34,7 +34,7 @@ class ModelEvaluation:
 
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
-
+        print(f"SEIYA: {tracking_url_type_store}")
         with mlflow.start_run():
 
             predicted_qualities = model.predict(test_x)
@@ -48,7 +48,7 @@ class ModelEvaluation:
             mlflow.log_params(self.config.all_params)
 
             mlflow.log_metric("Accuracy", acc)
-            mlflow.log_metric("ROC AUC Score", roc)
+            mlflow.log_metric("ROC_AUC_Score", roc)
 
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
