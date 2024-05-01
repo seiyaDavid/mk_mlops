@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s:")
 
-project_name = "riskDemo"
+project_name = "riskdemo"
 
 file_directories = [
     ".github/workflows/.gitkeep",
