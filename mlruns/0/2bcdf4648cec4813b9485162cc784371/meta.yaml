@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Seiya/Desktop/mlops_demo/mlruns/0/2bcdf4648cec4813b9485162cc784371/artifacts
+end_time: 1714552035456
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2bcdf4648cec4813b9485162cc784371
+run_name: charming-dolphin-409
+run_uuid: 2bcdf4648cec4813b9485162cc784371
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714552030696
+status: 3
+tags: []
+user_id: Seiya
